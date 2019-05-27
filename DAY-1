@@ -18,3 +18,15 @@ purchase_mobile(20000,"Apple")
 purchase_shoe(200,"leather")
 
 
+#OOPR-Exer-1
+class Employee:
+    def __init__(self):
+        self.name = name
+        self.age = age
+        self.salary=sal       
+
+Jack=Employee("Jack",24,30000)
+Jill=Employee("Jill",27,40000)
+
+
+
