@@ -18,7 +18,7 @@ purchase_mobile(20000,"Apple")
 purchase_shoe(200,"leather")
 
 
-#OOPR-Exer-1
+#OOPR-Exer-2 part-2
 class Employee:
     def __init__(self):
         self.name = name
