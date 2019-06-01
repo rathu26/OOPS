@@ -39,3 +39,52 @@ class Ticket:
             
 John=Ticket("John","DelHi","Kolkata")
 John.generate_ticket()
+
+
+#OOPR-Exer-8
+class Juggler:
+    def __init__(self,name):
+        self.__name=name
+
+    def juggles(self,jugglingitem):
+        self.__jugglingitem=jugglingitem
+        print(self.__name ,"is juggling with ",self.__jugglingitem)
+
+class JugglingItem:
+    def __init__(self,name):
+        self.__name=name
+
+    def get_name(self):
+        return self.__name
+s=JugglingItem("Balls")
+Jack=Juggler("Jack")
+Jack.juggles(s.get_name())
+
+
+
+#ASS 15
+class Parrot:
+    __counter=7000
+    def __init__(self,name,color):
+        self.__name=name
+        self.__color=color
+        Parrot.__counter+=1
+        self.__unique_number=Parrot.__counter
+        
+        
+    def get_color(self):
+        return __self.color
+    
+    def get_name(self):
+        return __self.name
+    
+    def get_unique_number(self):
+        return __uniqe_number
+        
+p=Parrot("kali","red")
+k=Parrot("guru","yellow")
+p=Parrot("kali","red")
+k=Parrot("guru","yellow")
+p=Parrot("kali","red")
+k=Parrot("guru","yellow")
+
